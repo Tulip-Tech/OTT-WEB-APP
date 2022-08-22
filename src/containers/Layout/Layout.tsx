@@ -153,7 +153,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       )}
 
       {/* Config select control to improve testing experience */}
-      {import.meta.env.APP_INCLUDE_TEST_CONFIGS && <ConfigSelect />}
+      {/* {import.meta.env.APP_INCLUDE_TEST_CONFIGS && <ConfigSelect />} */}
     </div>
   );
 };
