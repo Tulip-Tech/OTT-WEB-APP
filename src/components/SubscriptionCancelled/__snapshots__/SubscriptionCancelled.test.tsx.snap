@@ -1,0 +1,23 @@
+// Vitest Snapshot v1
+
+exports[`<SubscriptionCancelled> > renders and matches snapshot 1`] = `
+<div>
+  <div>
+    <h2
+      class="title"
+    >
+      subscription_cancelled.title
+    </h2>
+    <p>
+      subscription_cancelled.message
+    </p>
+    <button
+      class="button default outlined fullWidth"
+    >
+      <span>
+        subscription_cancelled.return_to_profile
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Vitest Snapshot v1
+
+exports[`<Checkbox> > renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="checkbox"
+  >
+    <div
+      class="row"
+    >
+      <input
+        id="check-box_1235_name"
+        name="name"
+        type="checkbox"
+        value="value"
+      />
+      <label
+        for="check-box_1235_name"
+      >
+        
+        label
+      </label>
+    </div>
+  </div>
+</div>
+`;

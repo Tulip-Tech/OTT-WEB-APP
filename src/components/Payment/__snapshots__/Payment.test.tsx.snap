@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Payment> renders and matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <h3>
+        user:payment.subscription_details
+      </h3>
+    </div>
+    <div
+      class="infoBox"
+    >
+      <p>
+        <strong>
+          user:payment.monthly_subscription
+        </strong>
+         
+        <br />
+        user:payment.next_billing_date_on
+         
+        16-3-2021
+      </p>
+      <p
+        class="price"
+      >
+        <strong>
+          € 20,00
+        </strong>
+        <small>
+          /
+          account:periods.year
+        </small>
+      </p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h3>
+        user:payment.payment_method
+      </h3>
+    </div>
+    <div>
+      <div
+        class="textField"
+      >
+        <label
+          class="label"
+          for="text-field_1235"
+        >
+          user:payment.card_number
+        </label>
+        <p>
+          •••• •••• •••• 0002
+        </p>
+      </div>
+      <div
+        class="cardDetails"
+      >
+        <div
+          class="textField"
+        >
+          <label
+            class="label"
+            for="text-field_1235"
+          >
+            user:payment.expiry_date
+          </label>
+          <p>
+            03/2030
+          </p>
+        </div>
+        <div
+          class="textField"
+        >
+          <label
+            class="label"
+            for="text-field_1235"
+          >
+            user:payment.cvc_cvv
+          </label>
+          <p>
+            ******
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h3>
+        user:payment.transactions
+      </h3>
+    </div>
+    <div
+      class="infoBox"
+    >
+      <p>
+        <strong>
+          Monthly subscription (recurring)
+        </strong>
+         
+        <br />
+        user:payment.price_payed_with
+      </p>
+      <p>
+        T712014024
+        <br />
+        5-5-2021
+      </p>
+    </div>
+    <div
+      class="infoBox"
+    >
+      <p>
+        <strong>
+          Monthly subscription (recurring)
+        </strong>
+         
+        <br />
+        user:payment.price_payed_with
+      </p>
+      <p>
+        T177974068
+        <br />
+        5-5-2021
+      </p>
+    </div>
+    <div
+      class="infoBox"
+    >
+      <p>
+        <strong>
+          Monthly subscription (recurring)
+        </strong>
+         
+        <br />
+        user:payment.price_payed_with
+      </p>
+      <p>
+        T996601696
+        <br />
+        5-5-2021
+      </p>
+    </div>
+  </div>
+</div>
+`;

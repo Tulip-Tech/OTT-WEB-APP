@@ -1,0 +1,43 @@
+// Vitest Snapshot v1
+
+exports[`<Filter> > renders Filter 1`] = `
+<div>
+  <div
+    class="filterRow"
+    role="listbox"
+  >
+    <button
+      class="button default outlined"
+      role="option"
+    >
+      <span>
+        x
+      </span>
+    </button>
+    <button
+      class="button default outlined"
+      role="option"
+    >
+      <span>
+        y
+      </span>
+    </button>
+    <button
+      class="button default outlined"
+      role="option"
+    >
+      <span>
+        z
+      </span>
+    </button>
+    <button
+      class="button default outlined"
+      role="option"
+    >
+      <span>
+        bb
+      </span>
+    </button>
+  </div>
+</div>
+`;

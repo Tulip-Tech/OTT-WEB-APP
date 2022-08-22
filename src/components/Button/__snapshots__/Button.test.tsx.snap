@@ -1,0 +1,13 @@
+// Vitest Snapshot v1
+
+exports[`<Button> > renders and matches snapshot 1`] = `
+<div>
+  <button
+    class="button default outlined active"
+  >
+    <span>
+      aa
+    </span>
+  </button>
+</div>
+`;
