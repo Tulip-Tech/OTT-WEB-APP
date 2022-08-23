@@ -44,7 +44,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
       https: true,
       hmr: {
         protocol: 'wss',
-        host: "localhost"
+        host: "443"
       }
     },
     build: {
