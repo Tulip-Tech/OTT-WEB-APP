@@ -44,6 +44,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
       hmr: {
         clientPort: 8082,
       },
+    },
     build: {
       outDir: './build',
     },
