@@ -41,11 +41,10 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     server: {
       port: 8082,
       host: "0.0.0.0",
-      hmr: {
-        port: 443,
-        // protocol: 'wss',
-        // clientPort: 8082,
-      },
+      // hmr: {
+      //   port: 443,
+      //   // protocol: 'wss',
+      // },
     },
     build: {
       outDir: './build',
