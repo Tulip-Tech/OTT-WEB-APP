@@ -42,7 +42,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
       port: 8080,
       host: "0.0.0.0",
       hmr: {
-        clientPort: 3000,
+        clientPort: 22,
       },
     },
     build: {
