@@ -31,12 +31,12 @@
   "menu": [
     {
       "label": "Films",
-      "contentId": "pM6HpCzJ",
+      "contentId": "snkYR6Wr",
       "type": "playlist",
       "filterTags": "Action,Comedy,Fantasy,Drama"
     },
     {
-      "label": "Nature",
+      "label": "Protiva",
       "contentId": "8VAOiJxB",
       "type": "playlist",
       "filterTags": "Beginner,Advanced"
