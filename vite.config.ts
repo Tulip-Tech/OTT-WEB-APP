@@ -40,6 +40,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     envPrefix: 'APP_',
     server: {
       port: 8082,
+      strictPort: true,
       // host: "0.0.0.0",
       hmr: {
         port: 443,
