@@ -44,7 +44,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
       // host: "0.0.0.0",
       hmr: {
         host: 'amarprotivatv.com',
-        port: 22,
+        port: 8080,
         protocol: 'wss',
       },
     },
