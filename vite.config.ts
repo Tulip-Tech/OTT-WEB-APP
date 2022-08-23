@@ -39,10 +39,10 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     publicDir: './public',
     envPrefix: 'APP_',
     server: {
-      port: 8080,
+      port: 22,
       host: "0.0.0.0",
       hmr: {
-        clientPort: 22,
+        clientPort: 8080,
       },
     },
     build: {
