@@ -39,13 +39,10 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     publicDir: './public',
     envPrefix: 'APP_',
     server: {
-      port: 8080,
-      https: true,
-      // host: "0.0.0.0",
+      port: 3000,
+      host: "amarprotivatv.com",
       hmr: {
-        host: 'amarprotivatv.com',
-        port: 8080,
-        protocol: 'wss',
+        clientPort: 3000,
       },
     },
     build: {
