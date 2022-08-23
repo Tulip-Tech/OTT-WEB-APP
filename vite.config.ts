@@ -40,6 +40,10 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     envPrefix: 'APP_',
     server: {
       port: 8080,
+      host: "0.0.0.0",
+      hmr: {
+        clientPort: 8080,
+      },
     },
     build: {
       outDir: './build',
@@ -47,13 +51,13 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     css:
       mode === 'test'
         ? {
-            modules: {
-              generateScopedName: (name) => name,
-            },
-          }
-        : {
-            devSourcemap: true,
+          modules: {
+            generateScopedName: (name) => name,
           },
+        }
+        : {
+          devSourcemap: true,
+        },
     resolve: {
       alias: {
         '#src': path.join(__dirname, 'src'),
