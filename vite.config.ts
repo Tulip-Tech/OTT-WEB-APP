@@ -40,7 +40,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     envPrefix: 'APP_',
     server: {
       port: 3000,
-      host: "amarprotivatv.com",
+      host: "0.0.0.0",
       hmr: {
         clientPort: 3000,
       },
