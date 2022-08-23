@@ -17,7 +17,7 @@ import Sidebar from '#src/components/Sidebar/Sidebar';
 import DynamicBlur from '#src/components/DynamicBlur/DynamicBlur';
 import MenuButton from '#src/components/MenuButton/MenuButton';
 import UserMenu from '#src/components/UserMenu/UserMenu';
-import ConfigSelect from '#src/components/ConfigSelect';
+// import ConfigSelect from '#src/components/ConfigSelect';
 import { addQueryParam } from '#src/utils/history';
 
 type LayoutProps = {

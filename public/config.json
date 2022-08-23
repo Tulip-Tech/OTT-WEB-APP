@@ -1,6 +1,6 @@
 {
   "assets": {
-    "banner": "https://cdn.jwplayer.com/images/nwthWC1U.png"
+    "banner": "./logo.png"
   },
   "content": [
     {
