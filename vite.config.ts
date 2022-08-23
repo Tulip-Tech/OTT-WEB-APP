@@ -41,8 +41,9 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     server: {
       port: 8080,
       hmr: {
-        protocol: 'wss',
-        clientPort: 8080,
+        host: '3.9.223.212',
+        port: 8081,
+        protocol: 'wss'
       },
     },
     build: {
