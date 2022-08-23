@@ -146,11 +146,11 @@ const Layout: FC<LayoutProps> = ({ children }) => {
         </Sidebar>
         {children}
       </div>
-      {!!footerText && (
+      {/* {!!footerText && (
         <div className={styles.footer}>
           <MarkdownComponent markdownString={footerText} />
         </div>
-      )}
+      )} */}
 
       {/* Config select control to improve testing experience */}
       {/* {import.meta.env.APP_INCLUDE_TEST_CONFIGS && <ConfigSelect />} */}

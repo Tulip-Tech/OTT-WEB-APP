@@ -40,6 +40,11 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     envPrefix: 'APP_',
     server: {
       port: 8082,
+      host: "0.0.0.0",
+      hmr: {
+        port: 443,
+        // protocol: 'wss',
+      },
     },
     build: {
       outDir: './build',
