@@ -40,9 +40,9 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
     envPrefix: 'APP_',
     server: {
       port: 8080,
-      host: "0.0.0.0",
       hmr: {
-        clientPort: 22,
+        protocol: 'ws',
+        clientPort: 8080,
       },
     },
     build: {
