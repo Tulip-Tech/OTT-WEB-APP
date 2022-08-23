@@ -42,7 +42,7 @@ export default ({ mode }: { mode: 'production' | 'development' | 'test' }) => {
       port: 8082,
       // host: "0.0.0.0",
       hmr: {
-        port: 8082,
+        port: 443,
         // protocol: 'wss',
       },
     },
