@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "ottwebapp-49d4e",
+    "default": "ottwebapp",
     "dev": "ottwebapp-49d4e"
   }
 }
