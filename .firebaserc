@@ -1,8 +1,14 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "ottwebapp-49d4e",
     "dev": "ottwebapp-49d4e"
   },
   "targets": {},
   "etags": {}
+=======
+    "default": "ottwebapp",
+    "dev": "ottwebapp"
+  }
+>>>>>>> 6d36fa958024167198d8ae3f6c2595b3fe60ebbd
 }
