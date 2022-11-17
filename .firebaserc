@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ottwebapp"
-  }
+    "default": "ottwebapp-49d4e",
+    "dev": "ottwebapp-49d4e"
+  },
+  "targets": {},
+  "etags": {}
 }
