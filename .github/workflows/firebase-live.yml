@@ -16,3 +16,4 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_OTTWEBAPP_49D4E }}"
           channelId: live
+          projectId: ottwebapp-49d4e
